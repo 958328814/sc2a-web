@@ -1,0 +1,34 @@
+{
+  "name": "sc2a-web",
+  "version": "0.1.0",
+  "description": "SC2A Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --hot --inline --port 3000 --config webpack.config.dev.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DreamHacks/sc2a-web.git"
+  },
+  "author": "fluxxu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DreamHacks/sc2a-web/issues"
+  },
+  "homepage": "https://github.com/DreamHacks/sc2a-web#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "css-loader": "^0.24.0",
+    "fecha": "^2.2.0",
+    "file-loader": "^0.9.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "mithril": "^0.2.5",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "webpack": "^1.13.2"
+  }
+}
